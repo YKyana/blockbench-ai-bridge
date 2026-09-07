@@ -1,6 +1,20 @@
 {
-  "id": "init-001",
-  "enabled": false,
-  "clear": false,
-  "cubes": []
+  "id": "infinite-cube-machine-001",
+  "enabled": true,
+  "clear": true,
+  "cubes": [
+    {"name":"Floor","from":[-14,-1,-5],"to":[14,0,5],"color":7},
+    {"name":"Left_Pillar","from":[-12,0,-3],"to":[-10,22,3],"color":4},
+    {"name":"Right_Pillar","from":[10,0,-3],"to":[12,22,3],"color":4},
+    {"name":"Top_Beam","from":[-12,20,-3],"to":[12,22,3],"color":4},
+    {"name":"Bottom_Beam","from":[-12,2,-3],"to":[12,4,3],"color":4},
+    {"name":"Track_Left","from":[-8,5,-1],"to":[-6,19,1],"color":5},
+    {"name":"Track_Right","from":[6,5,-1],"to":[8,19,1],"color":5},
+    {"name":"Top_Track","from":[-8,17,-1],"to":[8,19,1],"color":5},
+    {"name":"Bottom_Track","from":[-8,5,-1],"to":[8,7,1],"color":5},
+    {"name":"Loop_Cube_01","from":[-2,7,-2],"to":[2,11,2],"color":1},
+    {"name":"Loop_Cube_02","from":[-2,13,-2],"to":[2,17,2],"color":2},
+    {"name":"Loop_Cube_03","from":[-8,9,-2],"to":[-4,13,2],"color":3},
+    {"name":"Loop_Cube_04","from":[4,9,-2],"to":[8,13,2],"color":6}
+  ]
 }
